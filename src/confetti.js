@@ -34,7 +34,7 @@ function confetti(canvas) {
       this.y = y
       this.vx = utils.randomRange(-4, 4)
       this.vy = utils.randomRange(-10, -0)
-      this.type = utils.randomInt(0, 1)
+      this.type = 0
 
       this.w = utils.randomRange(5, 20)
       this.h = utils.randomRange(5, 20)
